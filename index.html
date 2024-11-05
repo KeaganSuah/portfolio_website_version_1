@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Keagan Suah Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Keagan Suah Personal Website">
+    <meta name="author" content="Keagan Suah">
+    <meta name="description" content="Hello, I'm Keagan Suah, and this is my personal website. Come visit my website to know more about me and view my portfolio!">
+    <!-- Personal Imported Files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" sizes="512x512" href="static/icon.png" />
+    <!-- External Imported Items -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+<body>
+  <!-- <img src="static/icon.png" alt=""> -->
+<!-- Navbar of portfolio -->
+<header class="header">
+  <a href="/" class="logo"
+  ><img src="static/icon.png" alt=""><span class="animate" style="--i: 1"></span
+  ></a>
+
+  <div class="bx bx-menu" id="menu-icon"></div>
+
+  <nav class="navbar">
+    <a href="#home" class="active"><i class='bx bxs-home'></i></a>
+<a href="#about"><i class='bx bxs-user'></i></a>
+<a href="#service"><i class='bx bxs-briefcase'></i></a>
+<a href="#portfolio"><i class='bx bx-code-alt'></i></a>
+<a href="#contact"><i class='bx bxs-chat'></i></a>
+<a href="#" onclick="return false;"><i class='bx bxs-sun' id="icon"></i></a>
+    <span class="active-nav"></span>
+    <span class="animate" style="--i: 2"></span>
+  </nav>
+</header>
+    
+<!-- home section design -->
+<section class="home show-animate" id="home">
+  <div class="home-content">
+    <h1>
+      Keagan Suah<span class="animate" style="--i: 2"></span>
+    </h1>
+    <div class="text-animate">
+      <h3>And I am a <span class="multiple-text"></span></h3>
+      <span class="animate" style="--i: 3"></span>
+    </div>
+    <p>
+      Welcome! I'm dedicated to tackling challenges and bringing innovative ideas to life by developing applications and exploring the latest in technology.
+      <span class="animate" style="--i: 4"></span>
+      </p>
+    <p>
+      Let's get started! Keep scrolling to discover more about me.<span
+        class="animate"
+        style="--i: 5"
+      ></span>
+    </p>
+    <div class="btn-box">
+      <a href="#portfolio" class="btn">My Projects</a>
+      <a href="#contact" class="btn">Let's Talk</a>
+      <span class="animate" style="--i: 6"></span>
+    </div>
+  </div>
+
+  <div class="home-imgHover"></div>
+  <span class="animate home-img" style="--i: 8"></span>
+</section>
+
+<!-- About section -->
+<section class="about" id="about">
+  <h5 class="sub-heading">Tell you about myself</h5>
+  <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i: 1"></span></h2>
+    <div class="row">
+      <div class="about-col-1">
+        <img src="static/picture.jpg" />
+        <span class="animate scroll" style="--i: 3"></span>
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">Description<span class="animate scroll" style="--i: 4"></span></h1>
+        <p>
+          Hello, I'm a computer science student passionate about problem-solving and innovation. Beyond my studies, I actively explore cutting-edge technologies, develop projects, and participate in hackathons. I'm eager to work with professionals and contribute to meaningful projects!<span class="animate scroll" style="--i: 5"></span>
+          </p>
+          <div class="tab-titles">
+            <a href="#about" class="tab-links active-link" onclick="openTab('skills')">Skills</a>
+            <a href="#about" class="tab-links" onclick="openTab('experience')">Experience</a>
+            <a href="#about" class="tab-links" onclick="openTab('education')">Educations</a>
+            <span class="animate scroll" style="--i: 6"></span>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            
+            <div class="skills-box">
+              <div class="skills-content">
+                <h3>Programming Languages</h3>
+                <div class="content">
+                  <span><i class="bx bxl-html5"></i> HTML</span>
+                  <span><i class='bx bxl-css3'></i>CSS</span>
+                  <span><i class='bx bxl-javascript'></i>JavaScript</span>
+                  <span><i class="bx bxl-python"></i>Python</span>
+                  <span><i class='bx bxl-c-plus-plus' ></i>C++</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>Technology Skills</h3>
+                <div class="content">
+                  <span><i class='bx bxl-django' ></i> Django</span>
+                  <span><i class="bx bxl-flask"></i>Flask</span>
+                  <span><i class='bx bxl-aws'></i>AWS</span>
+                  <span><i class='bx bxl-visual-studio'></i>VSCode</span>
+                </div>
+              </div>
+
+              <div class="skills-content">
+                <h3>professional Skills</h3>
+                <div class="content">
+                  <span><i class='bx bxs-group'></i>Teamwork</span>
+                  <span><i class='bx bx-walk'></i>Leading</span>
+                  <span style="font-size: 1.05rem;"><i class='bx bxs-message-rounded'></i>Communicate</span>
+                  <span><i class='bx bxs-bulb'></i>Innovate</span>
+                  <span><i class='bx bxs-search-alt-2'></i>Solver</span>
+                </div>
+              </div>
+            </div>
+            
+            <span class="animate scroll" style="--i: 7"></span>
+          </div>
+          <div class="tab-contents" id="experience">
+            <div class="education-column">
+              <div class="education-box">
+                <!-- First Place -->
+                <div class="education-content">
+                  <div class="content">
+                    <p class="year"><i class="bx bxs-calendar"></i> 2018 - 2021</p>
+                    <br>
+                    <p class="title">Frontend & Backend Developer - Singapore Armed Forces</p>
+                    <p>Digitalised the battalion by providing two automated systems through a website that eliminates human error. Created and administrated the overall program and server of the automated systems.
+                    </p>
+                  </div>
+                </div>
+                <!-- Second Place -->
+                <div class="education-content">
+                  <div class="content">
+                    <p class="year"><i class="bx bxs-calendar"></i> 2018 - 2021</p>
+                    <br>
+                    <p class="title">Intern Auditor - V.P.KUMARAN & CO</p>
+                    <p>
+                       Compiled general ledger entries on schedule that meets objectives of audit engagements. Used Excel to manage balance sheets and financial statements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="animate scroll" style="--i: 7"></span>
+          </div>
+          <div class="tab-contents" id="education">
+            <div class="education-column">
+              <div class="education-box">
+                <!-- First Place -->
+                <div class="education-content">
+                  <div class="content">
+                    <p class="year"><i class="bx bxs-calendar"></i> 2018 - 2021</p>
+                    <br>
+                    <p class="title">Bachelor in Computer Science - University Of London</p>
+                    <p>In my first year of study, I've immersed myself in foundational subjects like Discrete Mathematics, Calculus, Introduction to Programming, Web Development and data structures and algorithms.
+                    </p>
+                  </div>
+                </div>
+                <!-- Second Place -->
+                <div class="education-content">
+                  <div class="content">
+                    <p class="year"><i class="bx bxs-calendar"></i> 2018 - 2021</p>
+                    <br>
+                    <p class="title">Diploma in Accounting & Finance - TEMASEK POLYTHECNIC</p>
+                    <p>
+                      Business Accounting, Business Economics, Financial Accounting, Business Technology &Analytics, Auditing, and Information System & Financial Analytics.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="animate scroll" style="--i: 7"></span>
+          </div>
+        </p>
+      </div>
+    </div>
+</section>
+
+<!-- Service Section  -->
+<section class="service" id="service">
+  <h5 class="sub-heading">What i can do for you</h5>
+  <h2 class="heading">My <span>Services</span><span class="animate scroll" style="--i: 1"></span></h2>
+
+  <div class="service-container">
+
+    <div class="service-item">
+      <i class='bx bx-globe'></i>
+      <h3>Web Development</h3>
+      <p>Making websites and web apps that work smoothly, from how they look on the screen to how they work behind the scenes.</p>
+      <span class="animate scroll" style="--i: 3"></span>
+    </div>
+
+    <div class="service-item">
+      <i class='bx bxs-bar-chart-alt-2'></i>
+      <h3 class="service-title">Data Visualisation</h3>
+      <p class="services-description">Turning complicated information into pictures and stories that help people understand and make decisions.</p>
+      <span class="animate scroll" style="--i: 4"></span>
+    </div>
+
+    <div class="service-item">
+      <i class='bx bxs-cloud'></i>
+      <h3 class="service-title">Cloud Migration</h3>
+      <p class="services-description">Helping move computer stuff to the internet and making sure it runs well and doesn't cost too much.</p>
+      <span class="animate scroll" style="--i: 5"></span>
+    </div>
+
+    <!-- <div class="service-item">
+      <i class='bx bxs-notepad'></i>
+      <h3 class="service-title">Software Architecture</h3>
+      <p class="services-description">Planning and building software in a way that's easy to understand, use, and grow as needed.</p>
+      <span class="animate scroll" style="--i: 6"></span>
+    </div>
+
+    <div class="service-item">
+      <i class='bx bxs-server'></i>
+      <h3 class="service-title">Performance Optimization</h3>
+      <p class="services-description">Making sure websites and apps run fast and can handle lots of users without crashing.</p>
+      <span class="animate scroll" style="--i: 7"></span>
+    </div>
+
+    <div class="service-item">
+      <i class='bx bxs-brain'></i>
+      <h3 class="service-title">Machine Learning</h3>
+      <p class="services-description">Teaching websites and apps to learn from data and make smart decisions, like suggesting things or predicting outcomes.</p>
+      <span class="animate scroll" style="--i: 8"></span>
+    </div> -->
+
+
+  </div>
+</section>
+
+<!-- portfolio section -->
+<section class="portfolio" id="portfolio">
+  <h5 class="sub-heading">What I have done before</h5>
+  <h2 class="heading">Latest <span>Projects</span><span class="animate scroll" style="--i: 1"></span></h2>
+
+  <div class="filter-container">
+    <div class="filter-buttons">
+      <button class="btn" data-filter="all">All</button>
+      <button class="btn" data-filter=".website">Website</button>
+      <button class="btn" data-filter=".automation">Automation</button>
+      <button class="btn" data-filter=".game">Game</button>
+    </div>
+    <span class="animate scroll" style="--i: 3"></span>
+  </div>
+
+  <div class="portfolio-container">
+
+    <div class="portfolio-box mix website">
+      <h6>Website</h6>
+      <img src="static/port5.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Portfolio Website</h4>
+        <p>The Portfolio Website is where I showcase my projects and services.</p>
+        <span class="portfolio-btn">View More </span>
+        <div class="portfolio-body">
+          <p class="details_description"> Welcome to my portfolio website! This is the place where I showcase my skills and expertise as a first-year computer science student passionate about solving real-world problems through innovative projects.</p>
+            <ul class="details_info">
+              <li>Created - <span>21 April 2024</span></li>
+              <li>Technologies - <span>HTML/CSS | JavaScript</span></li>
+              <li>Role - <span>Frontend</span></li>
+              <div class="btn-box">
+                <a href="https://github.com/KeaganSuah/KeaganSuah.github.io.git" class="btn">Github Code</a>
+              </div>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-box mix game">
+      <h6>Game</h6>
+      <img src="static/port4.png" alt="">
+      <div class="portfolio-layer">
+        <h4>Platform Game</h4>
+        <p>an immersive 2D platform game inspired by iconic classics such as "Mario".</p>
+        <span class="portfolio-btn">View More </span>
+        <div class="portfolio-body">
+          <p class="details_description"> This project is about developing a 2D platform game reminiscent of "Mario," featuring custom graphics and engaging mechanics. It introduces enhancements like jump acceleration and sound effects, offering diverse levels for players. Despite challenges like implementing the "translate" function, the project provided valuable learning experiences in programming and design, resulting in a successful blend of technical proficiency and creativity.</p>
+            <ul class="details_info">
+              <li>Created - <span>4 Dec 2024</span></li>
+              <li>Technologies - <span>HTML | JavaScript | P5.JS</span></li>
+              <li>Role - <span>Frontend</span></li>
+              <div class="btn-box">
+                <a href="https://github.com/KeaganSuah/Cinderella_Game.git" class="btn">Github Code</a>
+              </div>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-box mix website">
+      <h6>Website</h6>
+      <img src="static/port3.png" alt="">
+      <div class="portfolio-layer">
+        <h4>E-Commerce 23</h4>
+        <p>This innovative project emerged victorious in the SIM-UOL-CS Hackathon23.</p>
+        <span class="portfolio-btn">View More </span>
+        <div class="portfolio-body">
+          <p class="details_description"> As project leader, I lead the development of KIZEK Wear,a frontend-only e-commerce website dedicated to female sportswear. This project was developed as part of the Hackathon Team "KIZEK", where our team secured the first-place position by creating an innovative and visually stunning user interface for a female sportswear marketplace.</p>
+            <ul class="details_info">
+              <li>Created - <span>11 November 2023</span></li>
+              <li>Technologies - <span>HTML/CSS | JavaScript | Python | Django | AWS</span></li>
+              <li>Role - <span>Fullstack</span></li>
+              <div class="btn-box">
+                <a href="https://github.com/KeaganSuah/Hackathon_uol_2023.git" class="btn">Github Code</a>
+              </div>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-box mix automation">
+      <h6>Automation</h6>
+      <img src="static/port2.png" alt="">
+      <div class="portfolio-layer">
+        <h4>NS Duty Planner</h4>
+        <p>Transformed manual duty planning algorithms into an automated system, reducing planning time</p>
+        <span class="portfolio-btn">View More </span>
+
+        <div class="portfolio-body">
+          <p class="details_description">Made during my national service. The automated duty planner program was developed to streamline duty planning processes, reducing planning time from days to seconds.
+            I analysis the duty planning process and devised an algorithm that efficiently schedules duties, ensuring optimal efficiency and accuracy.</p>
+            <ul class="details_info">
+              <li>Created - <span>12 Jan 2023</span></li>
+              <li>Technologies - <span>HTML/CSS | JavaScript | Python | Flask | AWS</span></li>
+              <li>Role - <span>Automation & Fullstack</span></li>
+              <div class="btn-box">
+                <a href="static/NS-report.pdf" class="btn">View Report</a>
+                <a href="https://github.com/KeaganSuah/NS-Project-Automation.git" class="btn">Github Code</a>
+              </div>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-box mix automation">
+      <h6>Automation</h6>
+      <img src="static/port1.png" alt="">
+      <div class="portfolio-layer">
+        <h4>NS Roll Call</h4>
+        <p>a centralised platform for attendance upload, reducing administrative tasks and saving valuable time.</p>
+        <span class="portfolio-btn">View More </span>
+        <div class="portfolio-body">
+          <p class="details_description">Made during my national service. The Roll Call Web is a centralised platform where users can easily upload their attendance, significantly reducing the time required for administrative tasks and data uploads.
+            Servicemen can submit their attendance status through the website, eliminating the need for manual submission via alternative means.</p>
+            <ul class="details_info">
+              <li>Created - <span>12 Jan 2023</span></li>
+              <li>Technologies - <span>HTML/CSS | JavaScript | Python | Flask | AWS</span></li>
+              <li>Role - <span>Automation & Fullstack</span></li>
+              <div class="btn-box">
+                <a href="static/NS-report.pdf" class="btn">View Report</a>
+                <a href="https://github.com/KeaganSuah/NS-Project-Automation.git" class="btn">Github Code</a>
+              </div>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <span class="animate scroll" style="--i: 4"></span>
+  </div>
+</section>
+
+<!-- Contact section -->
+<section class="contact" id="contact">
+  <h5 class="sub-heading">Where you can contact me</h5>
+  <h2 class="heading">Contact <span>Me</span><span class="animate scroll" style="--i: 1"></span></h2>
+
+  <div class="row">
+  <div class="contact-info-item">
+    <div class="icon"><i class='bx bxs-phone'></i></div>
+    <h4>Call Me</h4>
+    <p>+65 96801822</p>
+    <span class="animate scroll" style="--i: 3"></span>
+  </div>
+  
+  <div class="contact-info-item">
+    <div class="icon"><i class='bx bxs-envelope'></i></div>
+    <h4>Email Me</h4>
+    <p>suahkeagan@gmail.com</p>
+    <span class="animate scroll" style="--i: 4"></span>
+  </div>
+
+  <div class="contact-info-item">
+    <div class="icon"><i class='bx bx-at'></i></div>
+    <h4>Follow Me</h4>
+    <div class="contact-sci">
+      <a href="https://www.linkedin.com/in/keagan-suah/"><i class="bx bxl-linkedin"></i></a>
+      <a href="https://github.com/KeaganSuah"><i class="bx bxl-github"></i></a>
+      <a href="https://www.instagram.com/keagan_suah?igsh=aXdhbWhtOG81djkz"><i class="bx bxl-instagram"></i></a>
+    </div>
+    <span class="animate scroll" style="--i: 5"></span>
+  </div>
+
+  <div class="contact-info-item">
+    <div class="icon"><i class='bx bxs-spreadsheet'></i></div>
+    <h4>My Resume</h4>
+    <a href="static/Resume.pdf" download class="contact_btn">
+    Download
+  </a>
+    <span class="animate scroll" style="--i: 6"></span>
+  </div>
+</div>
+
+  <form action="#" name="submit-to-google-sheet">
+    <div class="input-box">
+      <div class="input-field">
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <span class="focus"></span>
+      </div>
+    </div>
+    <div class="input-box">
+      <div class="input-field">
+        <input type="email" name="Email" placeholder="Email" required>
+        <span class="focus"></span>
+      </div>
+    </div>
+    
+    <div class="textarea-field">
+      <textarea name="Message" cols="10" rows="10" placeholder="Your Message" required></textarea>
+      <span class="focus"></span>
+    </div>
+    <button type="submit" class="contact_btn">Submit</button>
+    <span class="animate scroll" style="--i: 6"></span>
+  </form>
+  <span id="msg"></span>
+</section>
+
+<!-- portfolio Pop Up  -->
+<div class="portfolio_popup">
+  <div class="portfolio_popup-inner">
+<div class="portfolio_popup-content">
+  <span class="portfolio_popup-close"><i class='bx bx-x'></i></span>
+  <div class="pp_thumbnail">
+  <img src="static/hackathon23/ian.png" alt="" class="portfolio_popup-img">
+</div>
+<div class="portfolio_popup-info">
+  <div class="portfolio_popup-subtitle">Featured - <span></span></div>
+  <h3 class="details_title"></h3>
+  <div class="portfolio_popup-body"></div>
+</div>
+</div>
+  </div>
+</div>
+
+<!-- Footer section -->
+<footer class="footer">
+  <div class="footer-text">
+    <p>Copyright &copy; 2024 Keagan Suah. All rights reserved.</p>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+  </div>
+</footer>
+
+<!-- JavaScript Frameworks  -->
+<!-- typing script -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- filter script -->
+<script src="script/mixitup.min.js"></script>
+<!-- Javascript file -->
+<script src="script/script.js"></script>
+
+  </body>
+</html>
